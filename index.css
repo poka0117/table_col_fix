@@ -1,0 +1,26 @@
+h2{
+    text-align: center;
+}
+/* 列の固定 */
+.table_box1{
+    width: 80%;
+    max-width: 700px;
+    overflow: auto;
+    margin: 0 auto;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    overflow: auto;
+    table-layout: fixed;
+}
+th,td{
+    width: 150px;
+    border: solid 1px black;
+}
+th{
+    background: #555;
+    color: white;
+    position: sticky;
+    left: 0;
+}
